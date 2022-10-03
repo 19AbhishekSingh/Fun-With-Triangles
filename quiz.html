@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+           <a href="index.html"> Is Triangle?</a>
+           <a href="hypotenuse.html"> Calculate Hypotenuse!</a>
+           <a href="AOT.html"> Calculate Area!</a>
+           <a href="quiz.html"> Triangle Quiz!</a>
+           
+       </nav>
+      
+    </header>
+
+    <h1>Quiz on Triangle📐</h1>
+   <form class="quiz-form">
+    
+    <div class="question-container">
+        <h3>Which type of triangle has one 90 degree angle?
+        </h3>
+        <label class="options">
+            <input type="radio" name="question1" value="acute">acute
+        </label>
+        <label class="options">
+            <input type="radio" name="question1" value="right">right
+        <label class="options">
+            <input type="radio" name="question1" value="obtuse">obtuse
+        </label>
+    </div>
+   
+    <div class="question-container">
+       <h3>Question-2: A triangle where all sides are congruent is called </h3>
+        <label class="options">
+            <input type="radio" name="question2" value="scalene">scalene
+        </label>
+        <label class="options">
+            <input type="radio" name="question2" value="isosceles">Isosceles
+            </label>
+            <label class="options">
+                <input type="radio" name="question2" value="equilateral">equilateral
+                </label>
+    </div>
+
+    <div class="question-container">
+        <h3>Question-3: An isosceles triangle has</h3>
+        <label class="options">
+            <input type="radio" name="question3" value="No congruent sides">No congruent sides
+        </label>
+        <label class="options">
+            <input type="radio" name="question3" value="2 congruent sides">2 congruent sides
+        </label>
+        <label class="options">
+            <input type="radio" name="question3" value=" 3 congruent sides"> 3 congruent sides
+        </label>
+
+    </div>
+
+    <div class="question-container">
+      <h3>Question-4: All 3 interior angles of a triangle add up to</h3>
+        <label class="options">
+            <input type="radio" name="question4" value="90°">90°
+        </label>
+        <label class="options">
+            <input type="radio" name="question4" value="180°">180°
+        </label>
+        <label class="options">
+            <input type="radio" name="question5" value="360°">360°
+        </label>
+    </div>
+
+   </form> 
+   <button id="check-btn" onclick="calculateScore()">Sumbit</button>
+   <div id="output"></div>
+
+   <footer class="footer">
+    <h2>Connect with me</h2>
+    <div>
+        <a href="https://twitter.com/mohitdhatrak" target="_blank"
+            ><img src="/twitter.svg" alt="" class="small-image-size"
+        /></a>
+        <a
+            href="https://www.linkedin.com/in/mohitdhatrak/"
+            target="_blank"
+            ><img src="/linkedin.svg" alt="" class="small-image-size"
+        /></a>
+        <a href="https://github.com/mohitdhatrak" target="_blank"
+            ><img src="/github.svg" alt="" class="small-image-size"
+        /></a>
+    </div>
+</footer>
+
+   <script src="./quiz.js"></script>
+</body>
+</html>
