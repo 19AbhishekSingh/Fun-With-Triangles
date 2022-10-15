@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-    --primary-color: #a80000;
+    --primary-color: #555555;
 }
 
 .header{
@@ -124,17 +124,15 @@ nav a {
 }
 
 
-.footer {
-    text-align: center;
-    background-color: var(--primary-color);
+.footer-container {
+    background-color:#555555;
     color: white;
-    padding: 1rem;
-    padding-bottom: 0.5rem;
     border-radius: 1rem 1rem 0 0;
-    margin-top: 1.5rem;
+    text-align: center;
+    padding: 1rem;
 }
-
-.small-image-size {
+.image-size {
     width: 2rem;
     margin: 1rem;
+    
 }
